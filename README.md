@@ -1,4 +1,4 @@
-# DetectionofAlzheimers
+# DetectAlzheimers
 # EEG-Based Alzheimer's Disease Classification
 This repository contains a Python script that performs EEG-based Alzheimer's disease classification using machine learning algorithms.
 
