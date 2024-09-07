@@ -19,11 +19,6 @@ Scikit-learn
 PyWavelets
 Joblib
 
-# Usage
-Clone the repository: git clone https://github.com/your-username/EEG-Alzheimers-Classification.git
-Install the required packages: pip install -r requirements.txt
-Run the script: python eeg_alzheimers_classification.py
-Data
 
 # The script assumes that the EEG data is stored in a folder with the following structure:
 EEG_data/
