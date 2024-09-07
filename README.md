@@ -5,9 +5,11 @@ This repository contains a Python script that performs EEG-based Alzheimer's dis
 # Overview
 The script consists of three main tasks:
 
-Get Live EEG Data: Connect to an EEG stream using PyLSL, set up a buffer to store the last 90 seconds of EEG data, and compute the band powers (Delta, Theta, Alpha, Beta) for each epoch of 1 second with an overlap of 0.8 seconds.
-Train Classification Model: Load EEG data from a folder, preprocess it using wavelet decomposition and wavelet coherence, extract features using Welch's method, and train a Random Forest Classifier on the extracted features.
-Final Prediction: Use the trained model to make a prediction on the live EEG data collected in Task 1, compute the mean band powers for the live data, and pass them through the trained model to predict whether the patient has Alzheimer's disease or not.
+1. Get Live EEG Data: Connect to an EEG stream using PyLSL, set up a buffer to store the last 90 seconds of EEG data, and compute the band powers (Delta, Theta, Alpha, Beta) for each epoch of 1 second with an overlap of 0.8 seconds.
+
+2. Train Classification Model: Load EEG data from a folder, preprocess it using wavelet decomposition and wavelet coherence, extract features using Welch's method, and train a Random Forest Classifier on the extracted features.
+
+3. Final Prediction: Use the trained model to make a prediction on the live EEG data collected in Task 1, compute the mean band powers for the live data, and pass them through the trained model to predict whether the patient has Alzheimer's disease or not.
 
 # Requirements
 Python 3.x
