@@ -12,14 +12,14 @@ The script consists of three main tasks:
 3. Final Prediction: Use the trained model to make a prediction on the live EEG data collected in Task 1, compute the mean band powers for the live data, and pass them through the trained model to predict whether the patient has Alzheimer's disease or not.
 
 # Requirements
-Python 3.x
-PyLSL (Lab Streaming Layer)
-NumPy
-Matplotlib
-SciPy
-Scikit-learn
-PyWavelets
-Joblib
+1. Python 3.x
+2. PyLSL (Lab Streaming Layer)
+3. NumPy
+4. Matplotlib
+5. SciPy
+6. Scikit-learn
+7. PyWavelets
+8. Joblib
 
 
 # The script assumes that the EEG data is stored in a folder with the following structure:
